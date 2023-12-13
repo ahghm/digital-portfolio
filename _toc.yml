@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Information
+    chapters:
+    - file: about_me
+    - file: cv
+#      sections:
+#      - file: path/to/part1/chapter2/section1
+  - caption: Example of Analysis
+    chapters:
+    - file: analysis_example.ipynb
+    - file: citations
+#     sections:
+#      - file: path/to/part2/chapter2/section1
