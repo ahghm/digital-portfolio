@@ -1,20 +1,9 @@
-# Digital Portfolio
+# زنده یاد علی قدیمی ماهانی
 
-Check out the content pages bundled with this sample book to see more.
+<h1 dir="rtl">به سایت  زنده یاد علی قدیمی ماهانی خوش آمدید</h1>
 
-```{tableofcontents}
-```
-````{tab-set}
-```{tab-item} Things I learned
-- Create a Jupyter book
-- Different style of writing in Markdown
-- Create links
-- Metadata in Jupyter Notebooks
-```
+<h1 dir="rtl">این سایت شامل سه بخش است:</h1>
 
-```{tab-item} Things I found difficult
-- Citation
-- Bibliography
-- Debugging of Jupyter book
-```
-````
+<h3 dir="rtl">دوران کودکی و نوجوانی-</h3>
+<h3 dir="rtl">دوران کاری و تشکیل خانواده-</h3>
+<h3 dir="rtl">دوران بازنشستگی-</h3>
