@@ -1,0 +1,154 @@
+
+/* =========================================================
+   Persian / RTL support for Jupyter Book
+   ========================================================= */
+
+/* Persian-capable web font */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap');
+
+/* Main Persian reading area */
+.bd-content {
+    font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+}
+
+/* Text, headings, lists, blockquotes and captions */
+.bd-content p,
+.bd-content li,
+.bd-content blockquote,
+.bd-content h1,
+.bd-content h2,
+.bd-content h3,
+.bd-content h4,
+.bd-content h5,
+.bd-content h6,
+.bd-content figcaption,
+.bd-content .caption {
+    direction: rtl;
+    text-align: right;
+    font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+}
+
+/* Comfortable Persian typography */
+.bd-content p,
+.bd-content li {
+    line-height: 2;
+}
+
+.bd-content h1,
+.bd-content h2,
+.bd-content h3,
+.bd-content h4,
+.bd-content h5,
+.bd-content h6 {
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+/* Keep figures/images centered and responsive */
+.bd-content figure {
+    text-align: center;
+}
+
+.bd-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Do NOT reverse code, terminal commands, or code blocks */
+.bd-content pre,
+.bd-content code,
+.bd-content .highlight,
+.bd-content .highlight pre {
+    direction: ltr;
+    text-align: left;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+                 "Liberation Mono", "Courier New", monospace;
+}
+
+/* Inline English/technical text can remain LTR when explicitly marked */
+.ltr,
+[dir="ltr"] {
+    direction: ltr;
+    text-align: left;
+}
+
+/* Explicit RTL text remains RTL */
+.rtl,
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Tables: Persian cells RTL, but preserve normal table structure */
+.bd-content table {
+    width: 100%;
+}
+
+.bd-content th,
+.bd-content td {
+    direction: rtl;
+    text-align: right;
+    line-height: 1.8;
+}
+
+/* Jupyter Book's notebook outputs should remain readable */
+.bd-content .output,
+.bd-content .output_area {
+    direction: ltr;
+    text-align: left;
+}
+
+/* Figure captions */
+.bd-content figcaption,
+.bd-content .caption {
+    margin-top: .5rem;
+    line-height: 1.8;
+}
+
+/* Responsive typography for phones */
+@media (max-width: 768px) {
+    .bd-content {
+        font-size: 16px;
+    }
+
+    .bd-content p,
+    .bd-content li {
+        line-height: 2.05;
+    }
+
+    .bd-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .bd-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .bd-content h3 {
+        font-size: 1.25rem;
+    }
+}
+
+
+/* Explicit RTL styling for the Persian introduction page */
+.persian-content {
+    direction: rtl;
+    text-align: right;
+    font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+}
+
+.persian-content p,
+.persian-content li,
+.persian-content h1,
+.persian-content h2,
+.persian-content h3 {
+    direction: rtl;
+    text-align: right;
+}
+
+.persian-content ul {
+    direction: rtl;
+    text-align: right;
+    padding-right: 2em;
+    padding-left: 0;
+}
