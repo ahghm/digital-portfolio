@@ -4,7 +4,7 @@ html_theme.sidebar_secondary.remove: true
 
 <div dir="rtl" class="persian-content">
 
-# به سایت زنده‌یاد علی قدیمی ماهانی خوش آمدید
+# به سایت یادبود زنده‌یاد علی قدیمی ماهانی خوش آمدید
 
 ## این سایت شامل سه بخش است
 
